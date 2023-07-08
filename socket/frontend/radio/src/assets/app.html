@@ -1,0 +1,25 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ <audio
+ id="audio"
+  src="https://www.w3schools.com/html/mov_bbb.mp4"
+  autoplay
+  controls
+  ></audio>
+</body>
+<script>
+    var sound = new Audio('http://localhost:3000/music/a.mp3');
+    console.log({sound});
+    sound.muted=false
+    sound.play();
+</script>
+
+</html>
