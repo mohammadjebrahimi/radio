@@ -1,3 +1,5 @@
 frontend/radio/node_modules
 backend/node_modules
 old
+socket/frontend/radio/node_modules
+socket/backend/node_modules
